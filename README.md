@@ -25,10 +25,10 @@ Always first issue a Wire (or custom e.g. myWire) begin, only then call the libr
 Warning: some libraries (including HTU21DF) do not seem to like operating when Wire is used as a slave (e.g. Wire.begin(mySlaveAddress)): in that case the bus hangs.
 
 ## Supported Libraries:
-*HTU21DF    - Based on Adafruit Library
-*FXAS21002C - Based on Adafruit Library
-*FXOS8700   - Based on Adafruit Library
-*MPL3115A2  - Based on Sparkfun Library
+*HTU21DF    - Based on Adafruit Library\
+*FXAS21002C - Based on Adafruit Library\
+*FXOS8700   - Based on Adafruit Library\
+*MPL3115A2  - Based on Sparkfun Library\
 
 ## Other Information:
 Enjoy. Comments / questions: feel free to reach out.
