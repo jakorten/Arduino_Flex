@@ -28,7 +28,7 @@ Warning: some libraries (including HTU21DF) do not seem to like operating when W
 *HTU21DF    - Based on Adafruit Library\
 *FXAS21002C - Based on Adafruit Library\
 *FXOS8700   - Based on Adafruit Library\
-*MPL3115A2  - Based on Sparkfun Library\
+*MPL3115A2  - Based on Sparkfun Library
 
 ## Other Information:
 Enjoy. Comments / questions: feel free to reach out.
