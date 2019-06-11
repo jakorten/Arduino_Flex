@@ -38,6 +38,7 @@ class Adafruit_HTU21DF_Flex {
         Adafruit_HTU21DF_Flex(TwoWire *wire);
         TwoWire *_wire;
         boolean begin(void);
+        boolean init(void);
         float readTemperature(void);
         float readHumidity(void);
         void reset(void);

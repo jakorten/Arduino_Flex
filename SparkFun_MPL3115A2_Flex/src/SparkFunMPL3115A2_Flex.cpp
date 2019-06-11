@@ -56,7 +56,8 @@ MPL3115A2_Flex::MPL3115A2_Flex(TwoWire *wire)
 //Start I2C communication
 void MPL3115A2_Flex::begin(void)
 {
-  //_wire->begin(); you should to that in your wire setup instead...
+  //removed: _wire->begin(); you should to that in your wire setup instead...
+  init(); // for convenience...
 }
 
 boolean MPL3115A2_Flex::init()

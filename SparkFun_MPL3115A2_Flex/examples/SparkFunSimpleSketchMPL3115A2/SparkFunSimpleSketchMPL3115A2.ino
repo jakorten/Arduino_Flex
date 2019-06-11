@@ -9,17 +9,23 @@ Simple Sketch to get started.
 
 This code is beerware; if you see me (or any other SparkFun employee) at the local, and you've found our code helpful, please buy us a round!
 Distributed as-is; no warranty is given.
-*/
+
+Flex modifications by J.A. Korten June 2019
+ */
+
+#include <Wire.h>
+#include "SparkFunMPL3115A2_Flex.h"
+
+
 
 // PIR example
-#include <Wire.h>
-#include <SparkFunMPL3115A2.h>
 #include <SoftwareSerial.h>
 
 SoftwareSerial display(3, 2);
 
 //Create an instance of the object
-MPL3115A2 myPressure;
+//Create an instance of the object
+MPL3115A2_Flex myPressure = MPL3115A2_Flex(&Wire);
 
 char pastring[10];
 char tmpstring[10];
@@ -35,7 +41,7 @@ void setup()
   Wire.begin();        // Join i2c bus
   Serial.begin(9600);  // Start serial for output
 
-  myPressure.begin(); // Get sensor online
+  myPressure.init(); // Get sensor online
 
   myPressure.setModeBarometer(); // Measure pressure in Pascals from 20 to 110 kPa
   
@@ -82,4 +88,3 @@ void loop()
 
   delay(100);
 }
-

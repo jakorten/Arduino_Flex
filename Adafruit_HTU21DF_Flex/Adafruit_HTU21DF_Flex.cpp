@@ -31,9 +31,12 @@ Adafruit_HTU21DF_Flex::Adafruit_HTU21DF_Flex(TwoWire *wire) {
    this->_wire = wire;
 }
 
-
 boolean Adafruit_HTU21DF_Flex::begin(void) {
-  //_wire->begin();
+   return init();
+}
+
+boolean Adafruit_HTU21DF_Flex::init(void) {
+  //_wire->begin(); removed...
 
   reset();
 

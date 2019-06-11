@@ -16,7 +16,11 @@
  
  During testing, GPS with 9 sattelites reported 5393ft, sensor reported 5360ft (delta of 33ft). Very close!
  
- */
+ Note: No Flex modifications were added as this example shows a version with the
+ Wire reference itself. You could a SERCOM version instead and replace Wire with that.
+
+ J.A. Korten June 2019
+*/
 
 #include <Wire.h> // for IIC communication
 

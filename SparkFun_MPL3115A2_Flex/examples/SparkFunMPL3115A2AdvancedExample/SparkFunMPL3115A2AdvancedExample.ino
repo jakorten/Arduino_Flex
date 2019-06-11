@@ -48,6 +48,11 @@
  
  Lastly, I put a piece of porous foam over the sensor to block ambient light since thre is some indication the 
  pressure and altitude reading are light sensitive.
+
+ Note: No Flex modifications were added as this example shows a version with the
+ Wire reference itself. You could a SERCOM version instead and replace Wire with that.
+  
+ J.A. Korten June 2019
  
  */
 

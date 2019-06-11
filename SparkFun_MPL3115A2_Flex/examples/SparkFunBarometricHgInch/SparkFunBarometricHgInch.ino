@@ -19,21 +19,21 @@
  -INT pins can be left unconnected for this demo
  
  During testing, GPS with 9 satellites reported 5393ft, sensor reported 5360ft (delta of 33ft). Very close!
- 
-*/
+ Flex modifications by J.A. Korten June 2019
+ */
 
 #include <Wire.h>
-#include "SparkFunMPL3115A2.h"
+#include "SparkFunMPL3115A2_Flex.h"
 
 //Create an instance of the object
-MPL3115A2 myPressure;
+MPL3115A2_Flex myPressure = MPL3115A2_Flex(&Wire);
 
 void setup()
 {
   Wire.begin();        // Join i2c bus
   Serial.begin(9600);  // Start serial for output
 
-  myPressure.begin(); // Get sensor online
+  myPressure.init(); // Get sensor online
 
   //Configure the sensor
   //myPressure.setModeAltimeter(); // Measure altitude above sea level in meters
