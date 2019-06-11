@@ -17,4 +17,11 @@ dependency injection of TwoWire (for now we only converted i2c libraries).
 See the output of using two HTU21DF sensors (at two different i2c busses using SAMD21):
 ![alt text](https://github.com/jakorten/Arduino_Flex/blob/master/images/terminal.png "Example Arduino terminal output.")
 
+## Notes
+Those libraries often do a begin on Wire inside the library. These lines were commented out. For convenience a init was implemented. Some libraries do need sensor initialization.
+We also linked "begin" to this init method which calls init.
+Always first issue a Wire (or custom e.g. myWire) begin, only then call the library method to avoid bus issues.
+
+Warning: some libraries (including HTU21DF) do not seem to like operating when Wire is used as a slave (e.g. Wire.begin(mySlaveAddress)): in that case the bus hangs.
+
 Enjoy. Comments / questions: feel free to reach out.
