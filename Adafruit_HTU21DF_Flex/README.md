@@ -23,7 +23,7 @@ You may need to create the libraries subfolder if its your first library. Restar
 We also have a great tutorial on Arduino library installation at:
 http://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use
 
-================================================================================================================
+=====================================================================================
 
 Modifications by Johan Korten (jakorten@jksoftedu.nl)
 We have modified the library to work with SERCOM.
