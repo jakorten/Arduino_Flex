@@ -15,6 +15,6 @@ We try to convert their libraries to a more flexible version that uses
 dependency injection of TwoWire (for now we only converted i2c libraries).
 
 See the output of using two HTU21DF sensors (at two different i2c busses using SAMD21):
-![alt text](https://github.com/jakorten/Arduino_Flex/images/terminal.png "Example Arduino terminal output.")
+![alt text](https://github.com/jakorten/Arduino_Flex/blob/master/images/terminal.png "Example Arduino terminal output.")
 
 Enjoy. Comments / questions: feel free to reach out.
