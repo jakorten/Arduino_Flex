@@ -36,6 +36,8 @@ A3 ----- R4, GND
 */
 
 #include <Wire.h>
+TwoWire myWire(&sercom2, 4, 3);
+
 #include <Adafruit_ADS1015_Flex.h>
 
 // Adafruit_ADS1115_alt ads;     // Use this for the 16-bit version 
@@ -49,9 +51,9 @@ const int raiseVoltagePin = 3;
   
 void setup(void)
 {
-  pinMode(alertPin,INPUT);
-  pinMode(raiseVoltagePin,OUTPUT);
-  digitalWrite(raiseVoltagePin,LOW);
+  //pinMode(alertPin,INPUT);
+  //pinMode(raiseVoltagePin,OUTPUT);
+  //digitalWrite(raiseVoltagePin,LOW);
   
   Serial.begin(115200);
   Serial.println("Hello!");
