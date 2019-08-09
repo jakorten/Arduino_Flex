@@ -1,3 +1,17 @@
+# Flex_BQ27441
+
+Arduino Library for the BQ27441-G1A LiPo Fuel Gauge
+RobotPatient Simulators Version using SERCOM
+
+Directly based on the SparkFun BQ27441-G1A LiPo Fuel Gauge Arduino library.
+
+V1.0
+Jannes Bloemert and Johan Korten
+August 2019
+
+See SFE info below.
+
+
 SparkFun BQ27441-G1A LiPo Fuel Gauge Arduino Library
 ====================================================
 
@@ -48,13 +62,3 @@ Distributed as-is; no warranty is given.
 - Your friends at SparkFun.
 
 _<COLLABORATION CREDIT>_
-
-# RP_FXOS8700
-
-Arduino Library for the BQ27441-G1A LiPo Fuel Gauge
-RobotPatient Simulators Version using SERCOM
-
-Directly based on the SparkFun BQ27441-G1A LiPo Fuel Gauge Arduino library.
-
-Jannes Bloemert and Johan Korten
-August 2019

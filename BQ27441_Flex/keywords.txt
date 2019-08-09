@@ -5,13 +5,14 @@
 ###############################################################
 
 BQ27441	KEYWORD1
-SparkFunBQ27441	KEYWORD1
-lipo	KEYWORD1
+BQ27441_Flex	KEYWORD1
+lipoGauge	KEYWORD1
 
 ###############################################################
 # Methods and Functions
 ###############################################################
 
+BQ27441_Flex KEYWORD2
 begin	KEYWORD2
 setCapacity	KEYWORD2
 voltage	KEYWORD2
