@@ -1,7 +1,8 @@
 # Flex_BQ27441
 
 Arduino Library for the BQ27441-G1A LiPo Fuel Gauge
-RobotPatient Simulators Version using SERCOM
+RobotPatient Simulators Version using SERCOM.
+SERCOM makes it useful for SAMD21 / SAMD51 uCs.
 
 Directly based on the SparkFun BQ27441-G1A LiPo Fuel Gauge Arduino library.
 
